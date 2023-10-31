@@ -43,12 +43,14 @@ Execute the programs and publish them.
 <map name="MyCity">
     <area target="_blank" alt="porurlake" title="porurlake" href="lake.html" coords="500,300,650,400" shape="rect">
     <area target="_blank" alt="porurjunction" title="porurjunction" href="jun.html" coords="700,500,600,300" shape="rect">
-    <area target="_blank" alt="Commerzone" title="Commerzone" href="com.html" coords="700,900,600,300" shape="rect">
-
+    <area target="_blank" alt="Commerzone" title="Commerzone" href="com.html" coords="900,800,600,300" shape="rect">
+    <area target="_blank" alt="Bakery" title="Bakery" href="bak.html" coords="500,200,600,300" shape="rect">
+    <area target="_blank" alt="GR" title="Gr" href="gr.html" coords="800,200,600,300" shape="rect">
 </map>
 </center>
 </body>
 </html>
+
 ```
 ### lake.html :
 ```
@@ -121,6 +123,51 @@ Execute the programs and publish them.
 </html>
 ```
 
+### bak.html :
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BAKE &amp; CHANGE</title>
+    </head>
+    <body bgcolor="green">
+        <center>
+            <h1 style="font-family: Tahoma;">BAKE &amp; CHANGE!</h1>
+            <hr color="black" size="10">
+            <img align="left" src="bak1.jpg" width="500" height="300">
+            <img align="center" src="bak.jpg" width="450" height="300">
+            <img align="right" src="bak2.jpg" width="500" height="300">
+            <hr color="black" size="10">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large; text-align: left;">Bakes N Cakez in Porur, Chennai is a reliable name in the industry as they aim to deliver the best experience to their customers. This has helped them build up a loyal customer base. They started their journey in 2016 and ever since, they have ensured that the customer remains at the centre of their business operations and philosophy. As they are located in a favourable neighbourhood, exactly at Old No.6, New No.32, Opposite to GRD THIRUMANA MAHALL, Vanniyar Street, Porur-600116  near Opposite to GRD THIRUMANA MAHALL, it is easy to locate Bakes N Cakez on the map. For any kind of assistance or questions, it is best to contact them directly during their business hours. 
+                Bakes N Cakez in Porur, Chennai is a reliable name in the industry as they aim to deliver the best experience to their customers. This has helped them build up a loyal customer base. They started their journey in 2016 and ever since, they have ensured that the customer remains at the centre of their business operations and philosophy. As they are located in a favourable neighbourhood, exactly at Old No.6, New No.32, Opposite to GRD THIRUMANA MAHALL, Vanniyar Street, Porur-600116  near Opposite to GRD THIRUMANA MAHALL, it is easy to locate Bakes N Cakez on the map. For any kind of assistance or questions, it is best to contact them directly during their business hours. </p>
+        </center>
+        
+    </body>
+</html>
+```
+
+### gr.html :
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRAND RESIDENCY</title>
+    </head>
+    <body bgcolor="violet">
+        <center>
+            <h1 style="font-family: Tahoma;">GRAND RESIDENCY</h1>
+            <hr color="black" size="10">
+            <img align="left" src="GR.jpg" width="500" height="300">
+            <img align="center" src="GR1.jpg" width="450" height="300">
+            <img align="right" src="GR2.jpg" width="500" height="300">
+            <hr color="black" size="10">
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large; text-align: left;">The car parking and the Wi-Fi are always free, so you can stay in touch and come and go as you please. Conveniently situated in the Poonamallee part of Chennai, this property puts you close to attractions and interesting dining options. Don't leave before paying a visit to the famous Marina Beach. Rated with 3 stars, this high-quality property provides guests with access to massage, restaurant and fitness center on-site.</p>
+        </center>
+        
+    </body>
+</html>
+```
+
 ## OUTPUT
 ### Map :
 ![img](out%20(1).png)
@@ -130,6 +177,10 @@ Execute the programs and publish them.
 ![img](out%20(3).png)
 ### Porur lake :
 ![img](out%20(4).png)
+### Grand Residence :
+![img](out%20(5).png)
+### Bakery :
+![img](out%20(6).png)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
